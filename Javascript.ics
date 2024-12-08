@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+BEGIN:VEVENT
+SUMMARY:Learn from Javascript Roadmap - roadmap.sh
+DESCRIPTION:Learn from the Javascript roadmap on roadmap.sh
+
+Visit the roadmap at https://roadmap.sh/javascript
+LOCATION:https://roadmap.sh/javascript
+DTSTART:20241208T153055Z
+DTEND:20241208T163055Z
+RRULE:FREQ=DAILY
+
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Reminder: Learn from Javascript Roadmap - roadmap.sh starts in 30 minutes
+END:VALARM
+
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder: Learn from Javascript Roadmap - roadmap.sh starts in 15 minutes
+END:VALARM
+
+END:VEVENT
+END:VCALENDAR
